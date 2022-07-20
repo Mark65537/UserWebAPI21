@@ -1,5 +1,5 @@
 ﻿![image](https://github.com/Mark65537/UserWebAPI21/blob/master/Screenshots/image1.png)
-![image](https://github.com/Mark65537/UserWebAPI21/blob/master/Screenshots/image1.png)
+![image](https://github.com/Mark65537/UserWebAPI21/blob/master/Screenshots/image2.png)
 # Описание
 Приложение реализует методы 
 получения/добавления/изменения/удаления пользователей. 
