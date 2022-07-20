@@ -1,0 +1,24 @@
+﻿@{
+    ViewData["Title"] = "Home page";
+}
+
+<div id="tableBlock"></div>
+
+<div id="editBlock">
+    <h3>Редактирование Пользователя</h3>
+    <table>
+        <tr><td><input type="hidden" id="editId" /></td><td></td></tr>
+        <tr><td><label>Имя: </label></td><td><input type="text" id="editName" /></td></tr>
+        <tr><td><label>Год: </label></td><td><input type="number" id="editYear" /></td></tr>
+    </table>
+    <button id="editUser">Сохранить</button>
+</div>
+
+<div id="createBlock">
+    <h3>Добавление Пользователя</h3>
+    <table>
+        <tr><td><label>Имя: </label></td><td><input type="text" id="addName" /></td></tr>
+        <tr><td><label>Год: </label></td><td><input type="number" id="addYear" /></td></tr>
+    </table>
+    <button id="addUser">Сохранить</button>
+</div>
