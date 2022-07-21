@@ -37,7 +37,7 @@ namespace BookWebAPI21
             //services.AddDbContext<AppDBContext>();
             //#endregion
 
-            //using (var connection = new SqliteConnection("Data Source=BookDB.mdf"))
+            //using (var connection = new SqliteConnection("Data Source=UserDB.db"))
             //{
             //    connection.Open();
             //}
@@ -48,7 +48,7 @@ namespace BookWebAPI21
         // This method gets called by the runtime. Use this method to configure the HTTP request pipeline.
         public void Configure(IApplicationBuilder app, IHostingEnvironment env)
         {
-            //using (AppDBContext db = new AppDBContext())
+            //using (AppDBContext db = new AppDBContext())//для тестов
             //{
             //    // получаем объекты из бд и выводим на консоль
             //    var users = db.Users.ToList();
